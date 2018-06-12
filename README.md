@@ -18,13 +18,13 @@ As you work, make sure you `git add .` and `git commit -m "[YOUR MESSAGE HERE]"`
 * In the `star_wars` folder, create two new directories: `empire` and `rebellion`.
 > paste your command here
 
-* Inside the `empire` directory, create a .txt file called `darth_vader`.
+* Inside the `empire` directory, create a .txt file called `darth_vader.txt`.
 > paste your command here
 
-* Use the force (or your knowledge of the command line) to add the text "...heavy breathing..." to the `darth_vader` file. (Don't remember how to do this? Use the `other force`, known as Google!)
+* Use the force (or your knowledge of the command line) to add the text `...heavy breathing...` to the `darth_vader` file. (Don't remember how to do this? Use the `other force`, known as Google!)
 > paste your command here
 
-* Inside the `empire` directory, create a .txt file called `emperor_palpatine`.
+* Inside the `empire` directory, create a .txt file called `emperor_palpatine.txt`.
 > paste your command here
 
 * Inside the `empire` directory, create a directory called `death_star`.

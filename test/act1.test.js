@@ -40,4 +40,8 @@ describe('Act 1', () => {
     });
   });
 
+  it('should have a file called star_wars/empire/emperor_palpatine.txt', () => {
+    assert.isTrue(fs.existsSync('star_wars/empire/emperor_palpatine.txt'), 'star_wars/empire/emperor_palpatine.txt should exist');
+  });
+
 });

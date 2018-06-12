@@ -11,3 +11,6 @@ touch star_wars/empire/darth_vader.txt
 
 # Use the force (or your knowledge of the command line) to add the text "...heavy breathing..." to the darth_vader file.
 echo "...heavy breathing..." > star_wars/empire/darth_vader.txt
+
+# Inside the `empire` directory, create a .txt file called `emperor_palpatine.txt`.
+touch star_wars/empire/emperor_palpatine.txt
