@@ -4,34 +4,21 @@
 
 Working in the command line is a key skill to develop as a programmer. It's a big break from what you're used to, and practice makes (eventually) perfect. Let's explore the Star Wars narrative using the command line!
 
-Please record your commands underneath each bullet point in this markdown.
+Please record your commands in `act1.sh`, and run `npm t`
 
 As you work, make sure you `git add .` and `git commit -m "[YOUR MESSAGE HERE]"`!
 
 ## "A New Hope"
 ### Act I
 
-* In your homework directory, create a new directory called `star_wars`.
-
-> Example answer: `mkdir star_wars`
-
-* In the `star_wars` folder, create two new directories: `empire` and `rebellion`.
-> paste your command here
-
-* Inside the `empire` directory, create a .txt file called `darth_vader.txt`.
-> paste your command here
-
-* Use the force (or your knowledge of the command line) to add the text `...heavy breathing...` to the `darth_vader` file. (Don't remember how to do this? Use the `other force`, known as Google!)
-> paste your command here
-
-* Inside the `empire` directory, create a .txt file called `emperor_palpatine.txt`.
-> paste your command here
-
-* Inside the `empire` directory, create a directory called `death_star`.
-> paste your command here
-
-* Move `darth_vader` into the `death_star`.
-> paste your command here
+1. In your THIS directory, create a new directory called `star_wars`.
+    > Example answer: `mkdir star_wars`
+1. In the `star_wars` folder, create two new directories: `empire` and `rebellion`.
+1. Inside the `empire` directory, create a .txt file called `darth_vader.txt`.
+1. Use the force (or your `echo`) to add the text `...heavy breathing...` to the `darth_vader.txt` file. (Don't remember how to do this? Use the 'other force', known as Google!)
+1. Inside the `empire` directory, create a .txt file called `emperor_palpatine.txt`.
+1. Inside the `empire` directory, create a directory called `death_star`.
+1. Move `darth_vader.txt` into the `death_star`.
 
 ### Act II
 
