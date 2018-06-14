@@ -53,16 +53,14 @@ const tests = [
     'should move darth_vader.txt to  star_wars/empire/death_star': () => {
       assert.isTrue(fs.existsSync('star_wars/empire/death_star/darth_vader.txt'), 'star_wars/empire/death_star/darth_vader.txt should exist');
       assert.isFalse(fs.existsSync('star_wars/empire/darth_vader.txt'), 'star_wars/empire/darth_vader.txt should NOT exist');
-
     },
   },
 ];
 
 
 describe('Act 1', () => {
-
   // clean up after ourselves
-  before(tearDown)
+  before(tearDown);
   after(tearDown);
 
   const commands = fs.readFileSync('act1.sh', 'utf8')
@@ -80,7 +78,6 @@ describe('Act 1', () => {
 
   // dynamically generate the tests based on each of the commands
   tests.forEach((test, i) => {
-
     // our test is an array of arrays.
     // use destructuring to separate the key from the val
     const [[should, f]] = Object.entries(test);
@@ -88,5 +85,4 @@ describe('Act 1', () => {
     // execute the command then test
     it(should, () => exec(commands[i], f));
   });
-
 });
