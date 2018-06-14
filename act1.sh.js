@@ -18,5 +18,6 @@ echo "...heavy breathing..." > star_wars/empire/darth_vader.txt
 mkdir star_wars/empire/death_star
 
 # Move darth_vader into the death_star.
-      mv star_wars/empire/darth_vader.txt star_wars/empire/death_star/
+
+mv star_wars/empire/darth_vader.txt star_wars/empire/death_star/
 

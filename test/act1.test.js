@@ -63,7 +63,7 @@ describe('Act 1', () => {
   before(tearDown);
   after(tearDown);
 
-  const commands = fs.readFileSync('act1.sh', 'utf8')
+  const commands = fs.readFileSync('act1.sh.js', 'utf8')
     /* split on newlines */
     .split(/\n/g)
 
