@@ -3,9 +3,12 @@ const fs = require('fs');
 const { exec } = require('child_process');
 const { assert, expect } = require('chai');
 
+const commands = require('../lib/readShellCommands')('act1.sh.js');
+
 const tearDown = done => exec('rm -rf star_wars', done);
 
 const tests = [
+/* ACT 1 */
   {
     'should have a folder called star_wars': () => {
     // assert
@@ -55,6 +58,7 @@ const tests = [
       assert.isFalse(fs.existsSync('star_wars/empire/darth_vader.txt'), 'star_wars/empire/darth_vader.txt should NOT exist');
     },
   },
+
 ];
 
 
@@ -62,20 +66,6 @@ describe('Act 1', () => {
   // clean up after ourselves
   before(tearDown);
   after(tearDown);
-
-  const commands = fs.readFileSync('act1.sh.js', 'utf8')
-    /* split on newlines */
-    .split(/\n/g)
-
-    /* remove blank lines */
-    .filter(x => x.trim())
-
-    /* remove any line with a # */
-    .filter(x => !(/#/g).test(x))
-
-    /* take out any whitespace */
-    .map(x => x.trim());
-
   // dynamically generate the tests based on each of the commands
   tests.forEach((test, i) => {
     // our test is an array of arrays.
