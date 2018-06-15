@@ -35,25 +35,25 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 ## Act II
 > Record your answers in `act2.sh.js`
 
-1. Inside the `star_wars/rebellion` directory, **IN ONE COMMAND!!** create a file called `princess_leia` with the text `Help me, Obi-Wan…You’re my only hope.`
-1. Create a file called `obi_wan`.
-1. Create a file called `luke_skywalker`.
-1. Create a directory called `millenium_falcon`.
-1. Inside the `millenium_falcon`, create two files: `han_solo` and `chewy`.
-1. Move `luke_skywalker`, `obi_wan`, and `princess_leia` into the `millenium_falcon`.
-1. Move the `millenium_falcon` into the `death_star`.
+1. Inside the `star_wars/rebellion` directory, [IN ONE COMMAND!!] create a file called `princess_leia` with the text `Help me, Obi-Wan…You’re my only hope.`
+  - see https://www.howtoforge.com/community/threads/echo-into-a-file.115/ 
+2. Create a file called `obi_wan` in `star_wars/rebellion`.
+3. Create a *file* in `star_wars/rebellion` called `luke_skywalker`.
+4. Create a *directory* in `star_wars/rebellion` called `millenium_falcon`.
+5. Inside the `millenium_falcon`, create two files: `han_solo` and `chewy`.
+6. In THREE commands, move `luke_skywalker`, `obi_wan`, and `princess_leia` into the `millenium_falcon`.
+7. Move the `millenium_falcon` into the `death_star`.
 
 ## Act III
 > Record your answers in `act3.sh.js`
 
 
-1. Unload the Millenium Falcon! Move the whole crew from the `millenium_falcon` directory into the `death_star` directory.
-1. `darth_vader` has defeated `obi_wan`! Delete poor `obi_wan`.
-1. Our heroes have disabled the tractor beam! Move the whole crew back into the `millenium_falcon`! Remember: `darth_vader` remains in the `death_star` and `emperor_palpatine` is still in the `empire`.
-1. Move the `millenium_falcon` back into the `rebellion` directory.
-1. `darth_vader` leaves the `death_star` to pursue Luke! Move him from the `death_star` into the `empire` directory!
-1. Thanks to his practice back home at Beggar's Canyon, Luke blew up the `death_star`! Remove it from the galaxy!
+1. Unload the Millenium Falcon in ONE COMMAND! Move the whole crew from the `millenium_falcon` directory into the `death_star` directory.
+2. SPOILER! `darth_vader` has defeated `obi_wan`! Delete poor `obi_wan`.
+3. Our heroes have disabled the tractor beam! Move the whole crew back into the `millenium_falcon`!
+Remember: `darth_vader` remains in the `death_star` and `emperor_palpatine` is still in the `empire`.
+4. Move the `millenium_falcon` back into the `rebellion` directory.
+5. `darth_vader` leaves the `death_star` to pursue Luke! Move him from the `death_star` into the `empire` directory!
+6. Thanks to his practice back home at Beggar’s Canyon, Luke blew up the `death_star`! Remove it from the galaxy!
 
- :boom:
 
-## Act IV

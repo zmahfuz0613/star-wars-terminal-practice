@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 const fs                  = require('fs');
 const { exec }            = require('child_process');
-const { assert }          = require('chai');
+const { assert, expect }  = require('chai');
 const readShellCommands   = require('../lib/readShellCommands');
 const run                 = require('../lib/customRunner');
 
@@ -70,7 +70,6 @@ const tests = [
       assert.isFalse(fs.existsSync('star_wars/empire/death_star'), 'star_wars/death_star should NOT exist');
     },
   },
-
 ];
 
 describe('Act 3', () => {
@@ -79,4 +78,18 @@ describe('Act 3', () => {
 
   // dynamically generate the tests based on each of the commands
   run(it, commands, tests);
+
+
+  it('should maintain the correct file structure', (done) => {
+    // EXPECT
+    const final_scene = fs.readFileSync('test/final_scene', 'utf-8');
+
+    // ACT
+    exec('tree star_wars', (error, stdout) => {
+      // ASSERT
+      assert.isNull(error);
+      expect(stdout).to.equal(final_scene);
+      done(error);
+    });
+  });
 });
