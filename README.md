@@ -24,7 +24,7 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 > Record your answers in `act1.sh.js`
 
 1. In THIS directory, create a new directory called `star_wars`.
-  - Example answer: `mkdir star_wars`
+    - Example answer: `mkdir star_wars`
 1. In the `star_wars` folder, create two new directories: `empire` and `rebellion`.
 1. Inside the `empire` directory, create a .txt file called `darth_vader`.
 1. Use the force (or your `echo`) to add the text `...heavy breathing...` to the `darth_vader` file. (Don't remember how to do this? Use the 'other force', known as Google!)
@@ -36,7 +36,7 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 > Record your answers in `act2.sh.js`
 
 1. Inside the `star_wars/rebellion` directory, [IN ONE COMMAND!!] create a file called `princess_leia` with the text `Help me, Obi-Wan…You’re my only hope.`
-  - see https://www.howtoforge.com/community/threads/echo-into-a-file.115/ 
+    - see https://www.howtoforge.com/community/threads/echo-into-a-file.115/ 
 2. Create a file called `obi_wan` in `star_wars/rebellion`.
 3. Create a *file* in `star_wars/rebellion` called `luke_skywalker`.
 4. Create a *directory* in `star_wars/rebellion` called `millenium_falcon`.
@@ -56,4 +56,6 @@ Remember: `darth_vader` remains in the `death_star` and `emperor_palpatine` is s
 5. `darth_vader` leaves the `death_star` to pursue Luke! Move him from the `death_star` into the `empire` directory!
 6. Thanks to his practice back home at Beggar’s Canyon, Luke blew up the `death_star`! Remove it from the galaxy!
 
+## Fin
 
+![star-wars-the-end](https://media.giphy.com/media/iQn33nEos213i/giphy.gif)
