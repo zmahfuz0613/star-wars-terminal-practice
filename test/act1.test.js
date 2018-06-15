@@ -2,6 +2,7 @@
 const fs = require('fs');
 const { exec } = require('child_process');
 const { assert, expect } = require('chai');
+const run = require('../lib/customRunner');
 
 const commands = require('../lib/readShellCommands')('act1.sh.js');
 
@@ -66,13 +67,5 @@ describe('Act 1', () => {
   // clean up after ourselves
   before(tearDown);
   after(tearDown);
-  // dynamically generate the tests based on each of the commands
-  tests.forEach((test, i) => {
-    // our test is an array of arrays.
-    // use destructuring to separate the key from the val
-    const [[should, f]] = Object.entries(test);
-
-    // execute the command then test
-    it(should, () => exec(commands[i], f));
-  });
+  run(it, commands, tests);
 });

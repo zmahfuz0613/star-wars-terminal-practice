@@ -3,6 +3,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 const { assert, expect } = require('chai');
 const readShellCommands = require('../lib/readShellCommands');
+const run = require('../lib/customRunner');
 
 const setUp = (done) => {
   const act1 = readShellCommands('act1.sh.js').join(';');
@@ -74,6 +75,7 @@ const tests = [
       assert.isTrue(fs.existsSync('star_wars/empire/death_star/millenium_falcon'), 'star_wars/empire/death_star/millenium_falcon should exist');
     },
   },
+
 ];
 
 describe('Act 2', () => {
@@ -81,12 +83,5 @@ describe('Act 2', () => {
   before(setUp);
   after(tearDown);
   // dynamically generate the tests based on each of the commands
-  tests.forEach((test, i) => {
-    // our test is an array of arrays.
-    // use destructuring to separate the key from the val
-    const [[should, f]] = Object.entries(test);
-
-    // execute the command then test
-    it(should, () => exec(commands[i], f));
-  });
+  run(it, commands, tests);
 });
