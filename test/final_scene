@@ -1,0 +1,12 @@
+star_wars
+├── empire
+│   ├── darth_vader
+│   └── emperor_palpatine
+└── rebellion
+    └── millenium_falcon
+        ├── chewy
+        ├── han_solo
+        ├── luke_skywalker
+        └── princess_leia
+
+3 directories, 6 files
