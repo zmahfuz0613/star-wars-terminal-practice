@@ -26,11 +26,11 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 1. In THIS directory, create a new directory called `star_wars`.
   - Example answer: `mkdir star_wars`
 1. In the `star_wars` folder, create two new directories: `empire` and `rebellion`.
-1. Inside the `empire` directory, create a .txt file called `darth_vader.txt`.
-1. Use the force (or your `echo`) to add the text `...heavy breathing...` to the `darth_vader.txt` file. (Don't remember how to do this? Use the 'other force', known as Google!)
-1. Inside the `empire` directory, create a .txt file called `emperor_palpatine.txt`.
+1. Inside the `empire` directory, create a .txt file called `darth_vader`.
+1. Use the force (or your `echo`) to add the text `...heavy breathing...` to the `darth_vader` file. (Don't remember how to do this? Use the 'other force', known as Google!)
+1. Inside the `empire` directory, create a .txt file called `emperor_palpatine`.
 1. Inside the `empire` directory, create a directory called `death_star`.
-1. Move `darth_vader.txt` into the `death_star`.
+1. Move `darth_vader` into the `death_star`.
 
 ## Act II
 > Record your answers in `act2.sh.js`

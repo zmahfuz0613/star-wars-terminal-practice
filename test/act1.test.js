@@ -27,25 +27,25 @@ const tests = [
     },
   },
   {
-    'should have a file star_wars/empire/darth_vader.txt': () => {
-      assert.isTrue(fs.existsSync('star_wars/empire/darth_vader.txt'), 'star_wars/empire/darth_vader.txt should exist');
+    'should have a file star_wars/empire/darth_vader': () => {
+      assert.isTrue(fs.existsSync('star_wars/empire/darth_vader'), 'star_wars/empire/darth_vader should exist');
     },
   },
   {
-    'darth_vader.txt should contain heavy breathing': () => {
+    'darth_vader should contain heavy breathing': () => {
       // ARRANGE
       const expected = '...heavy breathing...';
 
       // ACT
-      const actual = fs.readFileSync('star_wars/empire/darth_vader.txt', 'utf-8');
+      const actual = fs.readFileSync('star_wars/empire/darth_vader', 'utf-8');
 
       // ASSERT
       expect(actual.trim()).to.eql(expected);
     },
   },
   {
-    'should have a file called star_wars/empire/emperor_palpatine.txt': () => {
-      assert.isTrue(fs.existsSync('star_wars/empire/emperor_palpatine.txt'), 'star_wars/empire/emperor_palpatine.txt should exist');
+    'should have a file called star_wars/empire/emperor_palpatine': () => {
+      assert.isTrue(fs.existsSync('star_wars/empire/emperor_palpatine'), 'star_wars/empire/emperor_palpatine should exist');
     },
   },
   {
@@ -54,9 +54,9 @@ const tests = [
     },
   },
   {
-    'should move darth_vader.txt to  star_wars/empire/death_star': () => {
-      assert.isTrue(fs.existsSync('star_wars/empire/death_star/darth_vader.txt'), 'star_wars/empire/death_star/darth_vader.txt should exist');
-      assert.isFalse(fs.existsSync('star_wars/empire/darth_vader.txt'), 'star_wars/empire/darth_vader.txt should NOT exist');
+    'should move darth_vader to  star_wars/empire/death_star': () => {
+      assert.isTrue(fs.existsSync('star_wars/empire/death_star/darth_vader'), 'star_wars/empire/death_star/darth_vader should exist');
+      assert.isFalse(fs.existsSync('star_wars/empire/darth_vader'), 'star_wars/empire/darth_vader should NOT exist');
     },
   },
 
