@@ -65,6 +65,11 @@ const tests = [
       assert.isTrue(fs.existsSync('star_wars/empire/darth_vader'), 'star_wars/darth_vader should exist');
     },
   },
+  {
+    'should remove the death_star': () => {
+      assert.isFalse(fs.existsSync('star_wars/empire/death_star'), 'star_wars/death_star should NOT exist');
+    },
+  },
 
 ];
 
