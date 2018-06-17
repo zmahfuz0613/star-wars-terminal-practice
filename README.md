@@ -11,6 +11,11 @@ Working in the command line is a key skill to develop as a programmer. It's a bi
 ### Get Started
 
 * run `npm i` from this folder to install all the latest packages necessary to run this exercise
+* open this directory in your favorite editor:
+    * `subl .`
+    * `code .`
+    * `atom .`
+* open `act1.sh.js` (you may need to change your editor syntax to BASH or Bourne Again SHell) 
 
 ### Track Your Progress!
 This exercise is self-tested, giving you direct feedback on whether you're on the right path. 
@@ -25,10 +30,11 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 
 1. In THIS directory, create a new directory called `star_wars`.
     - Example answer: `mkdir star_wars`
-1. In the `star_wars` folder, create two new directories: `empire` and `rebellion`.
-1. Inside the `empire` directory, create a .txt file called `darth_vader`.
+1. In the `star_wars` folder, create two new directories: `empire` and `rebellion`. 
+    - Note: do not use `cd`! how do you create a sub-directory from here?
+1. Inside the `empire` directory, create a *file* called `darth_vader`.
 1. Use the force (or your `echo`) to add the text `...heavy breathing...` to the `darth_vader` file. (Don't remember how to do this? Use the 'other force', known as Google!)
-1. Inside the `empire` directory, create a .txt file called `emperor_palpatine`.
+1. Inside the `empire` directory, create a *file* called `emperor_palpatine`.
 1. Inside the `empire` directory, create a directory called `death_star`.
 1. Move `darth_vader` into the `death_star`.
 
@@ -37,7 +43,7 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 
 1. Inside the `star_wars/rebellion` directory, [IN ONE COMMAND!!] create a file called `princess_leia` with the text `Help me, Obi-Wan…You’re my only hope.`
     - see https://www.howtoforge.com/community/threads/echo-into-a-file.115/ 
-2. Create a file called `obi_wan` in `star_wars/rebellion`.
+2. Create a *file* called `obi_wan` in `star_wars/rebellion`.
 3. Create a *file* in `star_wars/rebellion` called `luke_skywalker`.
 4. Create a *directory* in `star_wars/rebellion` called `millenium_falcon`.
 5. Inside the `millenium_falcon`, create two files: `han_solo` and `chewy`.
