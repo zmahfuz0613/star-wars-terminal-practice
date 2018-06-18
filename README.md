@@ -15,7 +15,6 @@ Working in the command line is a key skill to develop as a programmer. It's a bi
     * `subl .`
     * `code .`
     * `atom .`
-* open `act1.sh.js` (you may need to change your editor syntax to BASH or Bourne Again SHell) 
 
 ### Track Your Progress!
 This exercise is self-tested, giving you direct feedback on whether you're on the right path. 
