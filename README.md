@@ -5,7 +5,7 @@
 Working in the command line is a key skill to develop as a programmer. It's a big break from what you're used to, and practice makes (eventually) perfect. Let's explore the Star Wars narrative using the command line!
 
 ## Instructions
-* There are three files `act1.sh.js`, `act1.sh.js`, `act3.sh.js` for each of the acts below. 
+* There are three files `act1.sh`, `act2.sh`, `act3.sh` for each of the acts below. 
 * Follow the prompts either here or in the files themselves
 
 ### Get Started
@@ -15,7 +15,6 @@ Working in the command line is a key skill to develop as a programmer. It's a bi
     * `subl .`
     * `code .`
     * `atom .`
-* open `act1.sh.js` (you may need to change your editor syntax to BASH or Bourne Again SHell) 
 
 ### Track Your Progress!
 This exercise is self-tested, giving you direct feedback on whether you're on the right path. 
@@ -26,7 +25,7 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 
 
 ## Act I
-> Record your answers in `act1.sh.js`
+> Record your answers in `act1.sh`
 
 1. In THIS directory, create a new directory called `star_wars`.
     - Example answer: `mkdir star_wars`
@@ -39,7 +38,7 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 1. Move `darth_vader` into the `death_star`.
 
 ## Act II
-> Record your answers in `act2.sh.js`
+> Record your answers in `act2.sh`
 
 1. Inside the `star_wars/rebellion` directory, [IN ONE COMMAND!!] create a file called `princess_leia` with the text `Help me, Obi-Wan…You’re my only hope.`
     - see https://www.howtoforge.com/community/threads/echo-into-a-file.115/ 
@@ -51,7 +50,7 @@ This exercise is self-tested, giving you direct feedback on whether you're on th
 7. Move the `millenium_falcon` into the `death_star`.
 
 ## Act III
-> Record your answers in `act3.sh.js`
+> Record your answers in `act3.sh`
 
 
 1. Unload the Millenium Falcon in ONE COMMAND! Move the whole crew from the `millenium_falcon` directory into the `death_star` directory.

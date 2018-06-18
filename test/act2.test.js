@@ -6,13 +6,13 @@ const readShellCommands = require('../lib/readShellCommands');
 const run = require('../lib/customRunner');
 
 const setUp = (done) => {
-  const act1 = readShellCommands('act1.sh.js').join(';');
+  const act1 = readShellCommands('act1.sh').join(';');
   exec(act1, done);
 };
 
 const tearDown = done => exec('rm -rf star_wars', done);
 
-const commands = readShellCommands('act2.sh.js');
+const commands = readShellCommands('act2.sh');
 const tests = [
   {
     'should create a princess_leia file, and contain the right contents': () => {

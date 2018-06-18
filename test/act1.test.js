@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const { assert, expect } = require('chai');
 const run = require('../lib/customRunner');
 
-const commands = require('../lib/readShellCommands')('act1.sh.js');
+const commands = require('../lib/readShellCommands')('act1.sh');
 
 const tearDown = done => exec('rm -rf star_wars', done);
 
