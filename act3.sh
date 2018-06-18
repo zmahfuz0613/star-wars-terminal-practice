@@ -3,7 +3,7 @@
 
 # 2. darth_vader has defeated obi_wan! Delete poor obi_wan.
 
-# 3. Our heroes have disabled the tractor beam! Move the whole crew back into the millenium_falcon!
+# 3.  Our heroes have disabled the tractor beam! In four commands, Move the whole crew back into the millenium_falcon!
 # Remember: darth_vader remains in the death_star and emperor_palpatine is still in the empire.
 
 # 4. Move the millenium_falcon back into the rebellion directory.

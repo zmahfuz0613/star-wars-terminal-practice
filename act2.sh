@@ -2,13 +2,13 @@
 
 # 2. Create a file called obi_wan in star_wars/rebellion.
 
-# 3. Create a *file* in star_wars/rebellion called luke_skywalker.
+# 3. Create a file in star_wars/rebellion called luke_skywalker.
 
 # 4. Create a *directory* in star_wars/rebellion called millenium_falcon.
 
-# 5. Inside the millenium_falcon, create two files: han_solo and chewy.
+# 5. In two commands, inside the millenium_falcon, create two files: han_solo and chewy.
 
-# 6. In THREE commands, Move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon, respectively.
+# 6. In THREE commands, move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon, respectively.
 
 
 
