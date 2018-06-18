@@ -6,14 +6,14 @@ const readShellCommands   = require('../lib/readShellCommands');
 const run                 = require('../lib/customRunner');
 
 const setUp = (done) => {
-  const act1 = readShellCommands('act1.sh.js');
-  const act2 = readShellCommands('act2.sh.js');
+  const act1 = readShellCommands('act1.sh');
+  const act2 = readShellCommands('act2.sh');
   exec([...act1, ...act2].join(';'), done);
 };
 
 // const tearDown = done => exec('rm -rf star_wars', done);
 
-const commands = readShellCommands('act3.sh.js');
+const commands = readShellCommands('act3.sh');
 const tests = [
   {
     'should move the whole crew into the death_star': () => {
