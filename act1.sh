@@ -1,6 +1,6 @@
 # 1. In THIS directory, create a new directory called star_wars. > Example answer: mkdir star_wars
 mkdir star_wars
-# 2. In two commands, n the star_wars folder, create two new directories: empire and rebellion. IN THAT ORDER!!!
+# 2. In two commands, in the star_wars folder, create two new directories: empire and rebellion. IN THAT ORDER!!!
 
 
 # 3. Inside the empire directory, create a file called darth_vader.
