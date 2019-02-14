@@ -5,6 +5,8 @@
 Working in the command line is a key skill to develop as a programmer. It's a big break from what you're used to, and practice makes (eventually) perfect. Let's explore the Star Wars narrative using the command line!
 
 ## Instructions
+* Fork and clone this repository
+* Create a feature branch to save all your work
 * There are three files `act1.sh`, `act2.sh`, `act3.sh` for each act. 
 * Follow the prompts in the files themselves.
 
