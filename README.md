@@ -6,7 +6,6 @@ Working in the command line is a key skill to develop as a programmer. It's a bi
 
 ## Instructions
 * Fork and clone this repository
-* Create a feature branch to save all your work
 * There are three files `act1.sh`, `act2.sh`, `act3.sh` for each act. 
 * Follow the prompts in the files themselves.
 
